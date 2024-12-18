@@ -13,9 +13,9 @@ const App = () => {
   return (
     <>
       <div className="w-full h-screen bg-gradient-to-tr from-pink-50 to-indigo-100">
-        <Navbar />
+        {/* <Navbar /> */}
         {/* Mostrar informacion del usuario */}
-        {isAuthenticated ? (
+        {/* {isAuthenticated ? (
           <>
             <div className="flex gap-4 justify-center">
               <h3>Información del Usuario:</h3>
@@ -30,9 +30,12 @@ const App = () => {
               Para poder visualizar el dashboard, es necesario iniciar sesión
             </h3>
           </div>
-        )}
+        )} */}
 
-        <Footer />
+        {/* <Footer /> */}
+        <h1 className="flex items-center justify-center h-[75%] mx-10">
+          Pagina en mantencion
+        </h1>
       </div>
     </>
   );
